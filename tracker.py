@@ -8,7 +8,7 @@ import re
 
 path = '/Users/emilyfong/Desktop/Propel/deposit_tracking/'
 today = datetime.today().strftime('%Y-%m-%d')
-read_name = path + today
+read_name = path + "raw/" + today
 store_name = path + "storage.csv"
 
 
